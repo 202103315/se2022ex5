@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int main(void) {
-  char str[] = "hello";
-  printf("%s", str);
+  int i = 0;
+  while (i < 10) {
+    i++;
+  }
+  printf("%d", i);
   return 0;
 }
